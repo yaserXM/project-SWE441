@@ -28,6 +28,9 @@
                   <li class="nav-item">
                       <a class="nav-link" href="about.php">About</a>
                   </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="register.php">register</a>
+                  </li>
               </ul>
               <?php if (isset($_SESSION["username"])) { ?>
                   <a class="btn btn-outline-dark mx-2" href="changePassword.php">
