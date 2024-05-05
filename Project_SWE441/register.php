@@ -32,7 +32,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <body>
 
   <?php include './part/header.php'; ?>
-
   <form action="#" class="col-sm-9 col-md-6 col-lg-5 reg-form container" method="post" onsubmit="return validate()">
     <label class="form-label" for="uasername">User Name</label>
     <input class="form-control" type="text" id="username" name="username" required /><br />
@@ -51,7 +50,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     <input class="btn btn btn-dark container mb-3" type="submit" value="Register" />
   </form>
-
   <?php include '../part/footer.php' ?>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>

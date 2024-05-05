@@ -6,6 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
   <meta name="description" content="" />
   <meta name="author" content="" />
+  <link href="src/css/styles.css" rel="stylesheet" />
+  <link rel="stylesheet" href="./src/css/about.css">
   <title>About</title>
 
   <!-- Core theme CSS (includes Bootstrap)-->
